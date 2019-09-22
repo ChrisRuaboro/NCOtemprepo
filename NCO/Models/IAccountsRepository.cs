@@ -5,7 +5,8 @@ using System.Threading.Tasks;
 
 namespace NCO.Models
 {
-    public class UserModel
-    {//
+    public class IAccountsRepository
+    {
+        IQueryable<Account> Accounts { get; }
     }
 }

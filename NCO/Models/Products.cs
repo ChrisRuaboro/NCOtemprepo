@@ -7,5 +7,9 @@ namespace NCO.Models
 {
     public class Products
     {
+        public int ProductID { get; set; }
+        public int TemplateID { get; set; }
+        public int AccountID { get; set; }
+        public string ProductDate { get; set; }
     }
 }

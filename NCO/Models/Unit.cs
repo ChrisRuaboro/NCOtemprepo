@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace NCO.Models
 {
-    public class Units
+    public class Unit
     {
         [Key]
         public int UnitIDCode { get; set; }
